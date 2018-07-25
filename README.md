@@ -200,7 +200,7 @@ You should definitely check out the [Lando docs](https://docs.devwithlando.io) f
 
 Unless otherwise indicated these should all be run from your repo root (eg the directory that contains the `.lando.yml` for your site).
 
-### Generic Ccommands
+### Generic commands
 
 ```bash
 # List all available lando commands for this app
