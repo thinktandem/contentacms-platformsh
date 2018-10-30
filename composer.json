@@ -30,7 +30,7 @@
         "drupal/migrate_plus": "4.x-dev",
         "drupal/migrate_tools": "^4.0",
         "drupal/migrate_upgrade": "3.x-dev",
-        "enyo/dropzone": "*",
+        "thinktandem/dropzone": "dev-master",
         "drupal/fieldable_path": "^1.0@RC"
     },
     "repositories": [
@@ -43,21 +43,8 @@
             "url": "https://github.com/contentacms/contenta_jsonapi"
         },
         {
-            "type"    : "package",
-            "package" : {
-                "name"    : "enyo/dropzone",
-                "version" : "dev-master",
-                "type"    : "git",
-                "dist"    : {
-                    "url"  : "https://github.com/enyo/dropzone.git",
-                    "type" : "drupal-library"
-                },
-                "source"  : {
-                    "url"       : "https://github.com/enyo/dropzone.git",
-                    "type"      : "git",
-                    "reference" : "origin/master"
-                }
-            }
+            "type": "git",
+            "url": "https://github.com/thinktandem/dropzone"
         }
     ],
     "scripts": {
